@@ -1,26 +1,42 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import { BrowserRouter as Router, Route } from "react-router-dom";
+import { CSSTransition } from "react-transition-group";
+import { Container } from "react-bootstrap";
+import Home from "./components/home";
+import About from "./components/about";
+import Contact from "./components/contact";
+import Navigator from "./components/navbar";
+import "./App.css";
 
-function App() {
+const routes = [
+  { path: "/", name: "Home", Component: Home },
+  { path: "/about", name: "About", Component: About },
+  { path: "/contact", name: "Contact", Component: Contact },
+];
+
+export default function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router className="App">
+      <>
+        <Container>
+          <Navigator routes={routes} />
+        </Container>
+
+        {routes.map(({ path, Component }) => (
+          <Route key={path} exact path={path}>
+            {({ match }) => (
+              <CSSTransition
+                in={match != null}
+                timeout={300}
+                classNames="page"
+                unmountOnExit
+              >
+                <Component />
+              </CSSTransition>
+            )}
+          </Route>
+        ))}
+      </>
+    </Router>
   );
 }
-
-export default App;
