@@ -6,12 +6,16 @@ import Home from "./components/home";
 import About from "./components/about";
 import Contact from "./components/contact";
 import Navigator from "./components/navbar";
+import Blog from "./components/blog";
+import Projects from "./components/projects";
 import "./App.css";
 
 const routes = [
   { path: "/", name: "Home", Component: Home },
   { path: "/about", name: "About", Component: About },
   { path: "/contact", name: "Contact", Component: Contact },
+  { path: "/blog", name: "Blog", Component: Blog },
+  { path: "/projects", name: "Projects", Component: Projects },
 ];
 
 export default function App() {

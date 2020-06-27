@@ -1,0 +1,24 @@
+.written-content h1 {
+  background: linear-gradient(
+    146deg,
+    rgba(242, 135, 5, 1) 0%,
+    rgba(130, 190, 129, 1) 53%,
+    rgba(22, 89, 77, 1) 100%
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.written-content {
+  text-align: left;
+}
+
+.social-links {
+  text-align: left;
+}
+
+.social-links .icon:hover {
+  fill: #16594d;
+  opacity: 0.8;
+  transition: all 0.3s ease-in-out;
+}
