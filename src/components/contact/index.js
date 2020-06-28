@@ -10,7 +10,7 @@ export default function Contact() {
       <Row>
         <Col style={{ fontSize: "25px", marginTop: "2rem" }}>
           <Typed
-            strings={["CSS", "React", "Javascript", "Omar"]}
+            strings={["CSS", "React", "Javascript", "Dara"]}
             typeSpeed={40}
             backSpeed={50}
             loop

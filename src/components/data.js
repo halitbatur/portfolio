@@ -9,13 +9,22 @@ const projects = [
     picture: "ToDoer",
   },
   {
-    name: "Movie Project",
+    name: "Movie App",
     desc:
       "A Project Similar to IMDB, you can browse/search for Movies and Actors. Built using themoviedb API",
     tech: ["JavaScript", "HTML", "CSS"],
     github: "https://github.com/OmarAlithawi/MovieApp",
     page: "https://5eef77bbc272650007e35406--sad-pare-bc6f4d.netlify.app/",
     picture: "MovieProject",
+  },
+  {
+    name: "Portfolio Page",
+    desc:
+      "Fully responsive portfolio website to share my work experience, blogs and my projects.",
+    tech: ["React", "React-Bootstrap", "CSS", "React-Router"],
+    github: "https://github.com/OmarAlithawi/MovieApp",
+    page: "https://5eef77bbc272650007e35406--sad-pare-bc6f4d.netlify.app/",
+    picture: "Portfolio",
   },
 ];
 

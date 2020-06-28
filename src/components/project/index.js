@@ -3,10 +3,12 @@ import { Col, Card } from "react-bootstrap";
 import PropTypes from "prop-types";
 import ToDoer from "../../to-doer.png";
 import MovieProject from "../../movie-project.png";
+import Portfolio from "../../portfolio.png";
 
 const imgSelector = {
   ToDoer,
   MovieProject,
+  Portfolio,
 };
 
 export default function Project({ name, desc, github, tech, page, picture }) {
