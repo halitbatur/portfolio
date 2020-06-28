@@ -11,11 +11,11 @@ import Projects from "./components/projects";
 import "./App.css";
 
 const routes = [
-  { path: "/", name: "Home", Component: Home },
-  { path: "/about", name: "About", Component: About },
-  { path: "/contact", name: "Contact", Component: Contact },
-  { path: "/blog", name: "Blog", Component: Blog },
-  { path: "/projects", name: "Projects", Component: Projects },
+  { path: "/portfolio", name: "Home", Component: Home },
+  { path: "/portfolio/about", name: "About", Component: About },
+  { path: "/portfolio/contact", name: "Contact", Component: Contact },
+  { path: "/portfolio/blog", name: "Blog", Component: Blog },
+  { path: "/portfolio/projects", name: "Projects", Component: Projects },
 ];
 
 export default function App() {

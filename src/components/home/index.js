@@ -1,9 +1,9 @@
 import React from "react";
 import { Row, Col, Container } from "react-bootstrap";
 import "./styles.css";
-import { ReactComponent as ProgrammerLogo } from "../../programmer4.svg";
-import { ReactComponent as GitHub } from "../../github.svg";
-import { ReactComponent as Linkedin } from "../../linkedin.svg";
+import { ReactComponent as ProgrammerLogo } from "../../svg/programmer4.svg";
+import { ReactComponent as GitHub } from "../../svg/github.svg";
+import { ReactComponent as Linkedin } from "../../svg/linkedin.svg";
 export default function Home() {
   return (
     <Container>

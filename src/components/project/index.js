@@ -13,9 +13,9 @@ const imgSelector = {
 
 export default function Project({ name, desc, github, tech, page, picture }) {
   return (
-    <Col sm={12} md={6} lg={4} class="mt-5">
+    <Col sm={12} md={6} lg={4} className="mt-3">
       <div className="proj">
-        <Card>
+        <Card style={{ borderRaduis: "20px" }}>
           <Card.Img
             variant="top"
             src={imgSelector[picture]}

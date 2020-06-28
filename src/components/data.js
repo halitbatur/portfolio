@@ -22,7 +22,7 @@ const projects = [
     desc:
       "Fully responsive portfolio website to share my work experience, blogs and my projects.",
     tech: ["React", "React-Bootstrap", "CSS", "React-Router"],
-    github: "https://github.com/OmarAlithawi/MovieApp",
+    github: "https://github.com/Halit-Batur/portfolio",
     page: "https://5eef77bbc272650007e35406--sad-pare-bc6f4d.netlify.app/",
     picture: "Portfolio",
   },

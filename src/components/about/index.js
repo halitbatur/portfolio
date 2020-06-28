@@ -1,6 +1,6 @@
 import React from "react";
-import { Row, Col, Container, Button } from "react-bootstrap";
-import { ReactComponent as AboutSVG } from "../../about.svg";
+import { Row, Col, Container } from "react-bootstrap";
+import { ReactComponent as AboutSVG } from "../../svg/about.svg";
 import Typed from "react-typed";
 import "./styles.css";
 
